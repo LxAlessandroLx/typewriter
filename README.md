@@ -49,3 +49,9 @@ int main()
 - .05f (1/20 aka 20 characters per second) is the speed
 - sf::Color::White is the text color
 - CENTER is the text alignment
+
+## Compile your project
+<pre>
+g++ -o [program name] [your script.cpp] src/Typewriter.cpp -I src -lsfml-system -lsfml-window -lsfml-graphics 
+</pre>
+Where "program name" is your program name and "your script.cpp" is your script path
