@@ -1,6 +1,12 @@
 # Typewriter
 A small C++/SFML class for typewriter effect
 
+## Requirements
+You need to install SFML
+<pre>
+sudo apt install libsfml-dev
+</pre>
+
 ## Usage 
 This is an example of how to use it
 ```c++
