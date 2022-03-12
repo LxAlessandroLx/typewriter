@@ -64,7 +64,7 @@ void Typewriter::update()
     }
 }
 
-void Typewriter::draw(sf::RenderWindow & window)
+void Typewriter::draw(sf::RenderTarget & target, sf::RenderStates states) const
 {
-    window.draw(m_text);
+    target.draw(m_text, states);
 }
