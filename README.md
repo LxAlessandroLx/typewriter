@@ -37,7 +37,7 @@ int main()
         typewriter.update();
 
         window.clear(sf::Color::Black);
-        typewriter.draw(window);
+        window.draw(typewriter);
         window.display();
     }
 }
