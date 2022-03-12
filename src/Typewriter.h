@@ -5,7 +5,7 @@
 
 enum SPOT { LEFT, RIGHT, CENTER };
 
-class Typewriter
+class Typewriter : public sf::Drawable
 {
     private:
         sf::Text m_text;
@@ -20,6 +20,7 @@ class Typewriter
         SPOT m_spot;
 
         void reset();
+        virtual void draw(sf::RenderTarget & target, sf::RenderStates states) const;
 
     public:
         Typewriter(
@@ -34,7 +35,6 @@ class Typewriter
         void setSpot(SPOT spot) { m_spot = spot; }
 
         void update();
-        void draw(sf::RenderWindow & window);
 };
 
 #endif
