@@ -45,7 +45,7 @@ int main()
 - "path/to/font.ttf" is your font path
 - "This is an example text" is the text to display
 - 32 is the fontsize
-- {screenWidth/2, 100} is the text pos
+- {screenWidth/2, 100} is the text position
 - .05f (1/20 aka 20 characters per second) is the speed
 - sf::Color::White is the text color
 - CENTER is the text alignment
